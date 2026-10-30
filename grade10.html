@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark light" />
+    <title>Grade 10 | Philopateer Nabil</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <div class="brand">
+          <div class="avatar" aria-hidden="true">PN</div>
+          <div class="brand-text">
+            <div class="brand-name">Philopateer Nabil</div>
+            <div class="brand-sub">Capstone Project • Grade 10</div>
+          </div>
+        </div>
+
+        <nav class="top-nav" aria-label="Primary">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="#semesters" class="nav-link" data-scroll>Semesters</a>
+        </nav>
+
+        <div class="header-actions">
+          <button class="icon-btn" id="themeToggle" type="button" aria-label="Toggle theme">
+            <span class="icon" aria-hidden="true">◐</span>
+          </button>
+          <a class="btn" href="#semesters" data-scroll>Semesters</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero page-hero">
+        <div class="container hero-inner">
+          <div class="hero-text">
+            <h1 class="hero-title">Grade 10</h1>
+            <p class="hero-sub">
+              Choose a semester to open its page. Each semester has its own page so you can add many projects and details.
+            </p>
+            <div class="hero-cta">
+              <a class="btn" href="#semesters" data-scroll>View Semesters</a>
+              <a class="btn btn-ghost" href="index.html#capstone">Back to grade list</a>
+            </div>
+          </div>
+
+          <aside class="hero-card" aria-label="Quick info">
+            <div class="card">
+              <div class="card-header">
+                <div class="card-title">Grade 10 Overview</div>
+                <div class="card-chip">2 Semesters</div>
+              </div>
+              <div class="card-body">
+                <div class="kv">
+                  <div class="k">Focus</div>
+                  <div class="v">Foundations + Projects</div>
+                </div>
+                <div class="kv">
+                  <div class="k">Email</div>
+                  <div class="v">feronabil2008@gmail.com</div>
+                </div>
+              </div>
+              <div class="card-footer">
+                <a class="link" href="index.html#capstone">Back to grade list</a>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="semesters">
+        <div class="container">
+          <div class="section-head">
+            <h2>Semesters</h2>
+            <p>Open a semester page and add all your work there.</p>
+          </div>
+
+          <div class="grid two">
+            <a class="project-card" href="g10-s1.html">
+              <div class="pc-top">
+                <div class="pc-title">Semester 1</div>
+                <div class="pc-tag">G10 S1</div>
+              </div>
+              <div class="pc-desc">Open Grade 10 Semester 1 page.</div>
+              <div class="pc-meta">
+                <span class="pill">Open page</span>
+              </div>
+            </a>
+
+            <a class="project-card" href="g10-s2.html">
+              <div class="pc-top">
+                <div class="pc-title">Semester 2</div>
+                <div class="pc-tag">G10 S2</div>
+              </div>
+              <div class="pc-desc">Open Grade 10 Semester 2 page.</div>
+              <div class="pc-meta">
+                <span class="pill">Open page</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+
+      <footer class="footer">
+        <div class="container footer-inner">
+          <div class="muted">© <span id="year"></span> Philopateer Nabil. All rights reserved.</div>
+          <a class="link" href="#top" data-scroll>Back to top</a>
+        </div>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
